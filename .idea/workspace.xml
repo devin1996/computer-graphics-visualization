@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdefb34f-5add-4aed-9d98-9fb66637ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/detect_faces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facedetect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/privacy_detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_faces.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,8 @@
       <recent name="C:\Users\User\PycharmProjects\ImageProcessingProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.erosion_binary">
-    <configuration name="Rescalling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.facedetect">
+    <configuration name="detect_faces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +54,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rescalling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect_faces.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,6 +76,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erosion_binary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="facedetect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facedetect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,34 +147,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transformations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ImageProcessingProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.facedetect" />
+        <item itemvalue="Python.detect_faces" />
         <item itemvalue="Python.erosion_binary" />
         <item itemvalue="Python.resize_proportionally" />
         <item itemvalue="Python.resize" />
-        <item itemvalue="Python.Rescalling" />
-        <item itemvalue="Python.transformations" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593150203992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Detect Faces">
+      <created>1593151203105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593151203105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,29 +259,34 @@
     <MESSAGE value="Contours" />
     <MESSAGE value="edge detection canny" />
     <MESSAGE value="Harris corener detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Harris corener detection" />
+    <MESSAGE value="Detect Faces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detect Faces" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="3" key="CommitChangelistDialog2" timestamp="1593150202559">
+    <state x="72" y="3" key="CommitChangelistDialog2" timestamp="1593151201603">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593150202559" />
+    <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593151201603" />
     <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1593147383394" />
-    <state width="745" height="214" key="GridCell.Tab.0.bottom" timestamp="1593143024488">
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom" timestamp="1593152396132">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593152396132" />
     <state width="745" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
-    <state width="745" height="214" key="GridCell.Tab.0.center" timestamp="1593143024488">
+    <state width="1515" height="103" key="GridCell.Tab.0.center" timestamp="1593152396132">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1515" height="103" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593152396132" />
     <state width="745" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
-    <state width="745" height="214" key="GridCell.Tab.0.left" timestamp="1593143024485">
+    <state width="1515" height="103" key="GridCell.Tab.0.left" timestamp="1593152396132">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1515" height="103" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593152396132" />
     <state width="745" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593143024485" />
-    <state width="745" height="214" key="GridCell.Tab.0.right" timestamp="1593143024488">
+    <state width="1515" height="103" key="GridCell.Tab.0.right" timestamp="1593152396132">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1515" height="103" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593152396132" />
     <state width="745" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1593062409681">
       <screen x="0" y="0" width="1536" height="834" />

@@ -1,5 +1,6 @@
 #import tha classifier class
 from skimage.feature import Cascade
+import matplotlib.pyplot as plt
 
 #load the trained file from the module root.
 trained_file = data.lpp_frontal_face_cascade_filename()
