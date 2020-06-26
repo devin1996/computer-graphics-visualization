@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdefb34f-5add-4aed-9d98-9fb66637ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resize_proportionally.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erosion_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
       <recent name="C:\Users\User\PycharmProjects\ImageProcessingProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.resize_proportionally">
+  <component name="RunManager" selected="Python.erosion_binary">
     <configuration name="Rescalling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="histogram_equalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="erosion_binary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/histogram_equalization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erosion_binary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.erosion_binary" />
         <item itemvalue="Python.resize_proportionally" />
         <item itemvalue="Python.resize" />
         <item itemvalue="Python.Rescalling" />
         <item itemvalue="Python.transformations" />
-        <item itemvalue="Python.histogram_equalization" />
       </list>
     </recent_temporary>
   </component>
@@ -188,36 +188,44 @@
       <option name="project" value="LOCAL" />
       <updated>1593139294356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Resize and Resize Proportionally">
+      <created>1593142501491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593142501491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Histogram Equalisation" />
     <MESSAGE value="Image Rotating" />
     <MESSAGE value="Rescalling Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rescalling Image" />
+    <MESSAGE value="Resize and Resize Proportionally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resize and Resize Proportionally" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="23" key="CommitChangelistDialog2" timestamp="1593139293296">
+    <state x="392" y="23" key="CommitChangelistDialog2" timestamp="1593142499850">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="392" y="23" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1593139293296" />
-    <state width="745" height="214" key="GridCell.Tab.0.bottom" timestamp="1593142233231">
+    <state x="392" y="23" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1593142499850" />
+    <state width="745" height="214" key="GridCell.Tab.0.bottom" timestamp="1593143024488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593142233231" />
-    <state width="745" height="214" key="GridCell.Tab.0.center" timestamp="1593142233231">
+    <state width="745" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
+    <state width="745" height="214" key="GridCell.Tab.0.center" timestamp="1593143024488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593142233231" />
-    <state width="745" height="214" key="GridCell.Tab.0.left" timestamp="1593142233231">
+    <state width="745" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
+    <state width="745" height="214" key="GridCell.Tab.0.left" timestamp="1593143024485">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593142233231" />
-    <state width="745" height="214" key="GridCell.Tab.0.right" timestamp="1593142233231">
+    <state width="745" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593143024485" />
+    <state width="745" height="214" key="GridCell.Tab.0.right" timestamp="1593143024488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593142233231" />
+    <state width="745" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593143024488" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1593062409681">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
