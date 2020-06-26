@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdefb34f-5add-4aed-9d98-9fb66637ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/harris_corner_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect_faces.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593149589497</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Harris corener detection">
+      <created>1593150203992</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593150203992</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,13 +249,14 @@
     <MESSAGE value="Unsupervised segmentation" />
     <MESSAGE value="Contours" />
     <MESSAGE value="edge detection canny" />
-    <option name="LAST_COMMIT_MESSAGE" value="edge detection canny" />
+    <MESSAGE value="Harris corener detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Harris corener detection" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="3" key="CommitChangelistDialog2" timestamp="1593149588806">
+    <state x="72" y="3" key="CommitChangelistDialog2" timestamp="1593150202559">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593149588806" />
+    <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1593150202559" />
     <state x="72" y="3" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1593147383394" />
     <state width="745" height="214" key="GridCell.Tab.0.bottom" timestamp="1593143024488">
       <screen x="0" y="0" width="1536" height="834" />
