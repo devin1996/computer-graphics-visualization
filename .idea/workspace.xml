@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdefb34f-5add-4aed-9d98-9fb66637ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/histogram_equalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
       <recent name="C:\Users\User\PycharmProjects\ImageProcessingProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.histogram_equalization">
+  <component name="RunManager" selected="Python.transformations">
     <configuration name="edge_detection_sobel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="thresholding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="transformations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessingProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thresholding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.transformations" />
         <item itemvalue="Python.histogram_equalization" />
         <item itemvalue="Python.gaussian_smoothing" />
         <item itemvalue="Python.edge_detection_sobel" />
         <item itemvalue="Python.grey2rgb" />
-        <item itemvalue="Python.thresholding" />
       </list>
     </recent_temporary>
   </component>
@@ -165,29 +164,41 @@
       <option name="presentableId" value="Default" />
       <updated>1593062102659</updated>
     </task>
+    <task id="LOCAL-00001" summary="Histogram Equalisation">
+      <created>1593082711661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593082711661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Histogram Equalisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Histogram Equalisation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="23" key="CommitChangelistDialog2" timestamp="1593082710570">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="392" y="23" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1593082710570" />
-    <state width="745" height="214" key="GridCell.Tab.0.bottom" timestamp="1593082494620">
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom" timestamp="1593138431440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593082494620" />
-    <state width="745" height="214" key="GridCell.Tab.0.center" timestamp="1593082494620">
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593138431440" />
+    <state width="1515" height="214" key="GridCell.Tab.0.center" timestamp="1593138431440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593082494620" />
-    <state width="745" height="214" key="GridCell.Tab.0.left" timestamp="1593082494620">
+    <state width="1515" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593138431440" />
+    <state width="1515" height="214" key="GridCell.Tab.0.left" timestamp="1593138431440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593082494620" />
-    <state width="745" height="214" key="GridCell.Tab.0.right" timestamp="1593082494620">
+    <state width="1515" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593138431440" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right" timestamp="1593138431440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593082494620" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593138431440" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1593062409681">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
